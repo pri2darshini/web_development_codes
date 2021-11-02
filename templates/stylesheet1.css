@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Sacramento&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    width:70%;
+    margin:1em auto;
+    border:0.35em solid black;
+/*     border-radius:1em; */
+    background-color:#dfff80;
+    background-position: right bottom;
+    background-attachment: scroll;
+    background-repeat:no-repeat;
+    background-image:url("../wd1/back1.png")
+}
+@media screen and (min-width:480px){
+    body{
+        background-color:gold;
+    }
+}
+@media screen and (min-width:760px){
+    body{
+        background-color:#00ffcc;
+    }
+}
+@media screen and (min-width:1200px){
+    body{
+        background-color:#dfff80;
+    }
+}
+body header{
+    font-family:"Sacramento";
+    font-size:1.5em;
+    padding:1em;
+    /*display:flex-block;*/
+    flex-direction:row;
+    /*justify-content:flex-center;*/
+    max-width:100%;
+    flex-wrap:wrap;
+    background-color:white;    
+}
+body header img{
+    float:right;
+}
+
+nav{
+    background-color:#00b300;
+    text-align:left;
+    padding:2em;
+}
+
+main nav{
+    background-color:#dfff80;
+}
+
+nav a{
+    border:1em;
+    font-family:"Anton";
+    font-size:1em;
+    text-decoration:none;
+    color:black;
+}
+nav ul li{
+   list-style:none;
+   display:inline;
+   padding:1.5em;
+}
+
+@media screen and (min-width:480px){
+    nav ul li{
+        display:block;
+       
+    }
+@media screen and (min-width:768px){
+    nav ul li{
+        display:inline;
+    }
+@media screen and (min-width:1200px){
+    nav ul li{
+        display:inline;
+    }
+}
+}
+
+nav a:hover{
+    background-color:#00b300;
+    padding:0.5em;
+}
+nav ul{
+    border:0.5em;
+}
+body h1{
+    margin:0 1em ;
+   
+}
+body p{
+   margin:2em;
+   text-align:justify;
+   font-family:"roboto Condensed";
+}
+.gallery {
+    display:flex;
+    justify-content:center;
+    max-width:100%;
+    flex-flow:wrap row;
+    border:green solid 0.2em;
+    border-radius:2em;
+    margin:2em;
+    padding:1em;
+    background-color:#ffff80;
+    text-align:center;
+}
+.gallery figure{
+    border:gold solid 0.2em;
+    padding:0.5em;
+    margin:0.5em;
+    border-radius:1em;
+   
+/*     max-width:100%; */
+}
+
+img{
+   
+/*     border:green solid 0.5em; */
+    max-width:100%;
+    border-radius:1.5em;
+}
+main figure{
+    /*flex:inline;*/
+    border-color:gold;
+    background-color:#ffff80;
+    width:35%;
+    height:auto;
+    border-radius:1em;
+    border-style:solid;
+    text-align:center;
+    margin:auto;
+    padding:1em;  
+    transition:all 1s linear 0s;
+}
+/*main figure:hover{
+        transform:rotate;
+}*/
+table {
+  border-collapse: collapse;
+  margin-left:auto;
+  margin-right:auto;
+  width:40%;
+}
+table, th, td {
+  border: 1px solid black;
+  padding: 2px;
+  text-align:center;
+  height: 50px;
+  font-size:1em;
+}
+tr:hover {background-color:yellow;}
+table caption{
+    font-size:2em;
+    font-family:"roboto Condensed";
+}
+main nav ul li a{
+    display:inline-block;
+    padding:0.32em;
+    margin-bottom:1em;
+    color:red;
+    font-size:1.2em;
+    font-family:"roboto Condensed";
+}
+
+main nav ul li{
+    background-color:orange;
+    padding:0.1em;
+    border-radius:0.5em;
+    text-align:center;
+}
+section article h2{
+    color:red;
+    background-color:orange;
+    margin:1em;
+    padding:0.5em;
+    border-radius:1em;
+    display:inline-block;
+}
+article h4{
+    margin:1em;
+    text-indent:1em;
+}
+article a{
+    margin:2em;
+}
+footer ul li{
+   
+    background-color:orange;
+    margin:1em;
+    padding:1em;
+    border-radius:1em;
+    display:inline;
+    list-style:none;
+}
+footer a{
+    text-decoration:none;
+    margin:3em;
+    display:inline-block;
+    font-family:"Anton";
+}
+main h3{
+    margin:1em;
+}
+.kitchen{
+    /*flex:inline;*/
+    border-color:green;
+    background-color:#ffff80;
+    max-width:100%;
+    height:auto;
+    border-radius:1em;
+    border-style:solid;
+    text-align:center;
+    margin:2em;
+    padding:1em;
+    flex-flow:wrap row;
+}
+.kitchen img{
+    border-radius:1em;
+    /*border-style:solid black 0.5em;*/
+    /*flex:wrap;*/
+    border:gold solid 0.2em;
+    padding:0.5em;
+    margin:0.5em;
+    border-radius:1em;
+}
+
+main ol li {
+   list-style:none;
+   
+   display:inline;
+   padding:2em;
+}
+main ol li a{
+ text-decoration:none;
+  background-color:orange;
+    padding:0.5em;
+    border-radius:0.5em;
+}
+main{
+    padding:1em;
+    font-family:"roboto Condensed";
+}
+
+section {
+ column-width: 20em;
+ column-gap: 2em;
+ column-rule: 0.0625em solid gray;
+}
+figure {
+break-inside: avoid;
+}

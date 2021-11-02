@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>welcome to my page</title>
+        <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='styles/stylesheet1.css')}}">
+    </head>
+    <body>
+   
+        <header>
+        <img src="{{url_for('static', filename='images/turmeric2.jpg')}}">
+        <h1>The Spicy Treat of Goodness</h1>
+        </header>
+       
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="species">Species</a></li>
+                <li><a href="images">Gallery</a></li>
+                <li><a href="quicklinks">Quick Links</a></li>
+                <li><a href="kitchen">Role in food</a></li>
+                <li><a href="people">Developed by</a></li>
+            </ul>
+        </nav>
+       
+        <main>
+       
+        <h1>Overview</h1>
+        <article>
+        <p id="intro">
+        <b>Turmeric</b> is a spice that comes from the turmeric plant. The scientific name for turmeric is <i>Curcuma longa</i>. It is commonly used in the asian food. It belongs to the family <b>Zingiberaceae</b>.It contains the yellow colored chemical called <em>curcumin</em>. Turmeric has a warm, bitter taste and is frequently used to flavor or color curry powders.Turmeric may be the most effective nutritional supplement in existence.Many high-quality studies show that it has major benefits for our body and brain.Turmeric is the spice that gives curry its yellow color.It has been used in India for thousands of years as a spice and medicinal herb.<em>Curcumin</em> is also fat soluble, so it may be a good idea to take it with a fatty meal.<strong>Curcumin</strong> is the main active ingredient in turmeric. It has <em>powerful anti-inflammatory</em> effects and is a very strong <em>antioxidant</em>.Curcumin is strongly <em>anti-inflammatory</em>. Curcumin has powerful antioxidant effects. It neutralizes free radicals on its own but also stimulates your body's own antioxidant enzymes.Curcumin has beneficial effects on several factors known to play a role in heart disease. It improves the function of the endothelium and is a potent anti-inflammatory agent and antioxidant.<strong>Curcumin</strong> leads to several changes on the molecular level that may help prevent and perhaps even treat cancer.Curcumin can cross the blood-brain barrier and has been shown to lead to various improvements in the pathological process of <strong>Alzheimer’s disease</strong>.</p></article>
+       
+        <figure>
+            <img src="{{url_for('static', filename='images/turmeric6.jpg')}}">
+                    <figcaption>
+                        A species of turmeric root plant.
+                    </figcaption>
+           
+        </figure>
+       
+       
+        <table>
+        <caption><h4>Scientific Classification</h4></caption>
+        <tr>
+        <th scope="row" >Kingdom</th><td >plantae</td>
+        </tr>
+        <tr>
+        <th scope="row" >Clade</th><td >Tracheophytes</td>
+        </tr>
+        <tr>
+        <th scope="row" >Order</th><td >Zingiberales</td>
+        </tr>
+        <tr>
+        <th scope="row" >Family</th><td >Zingiberaceae</td>
+        </tr>
+        <tr>
+        <th scope="row" >Genus</th><td >Curcuma</td>
+        </tr>
+        </table>
+        </main>
+   
+        <footer>
+            <ul>
+                <li><a href="species">Next Page</a></li>
+            </ul>
+            <p>
+                <small>@developed for educational purpose only.</small>
+            </p>
+        </footer>
+        </body>
+</html>
